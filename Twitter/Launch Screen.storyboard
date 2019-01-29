@@ -14,10 +14,45 @@
         <scene sceneID="EHf-IW-A2E">
             <objects>
                 <viewController id="01J-lp-oVM" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                    <view key="view" contentMode="scaleAspectFit" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TwitterLogoBlue" highlightedImage="TwitterLogo" translatesAutoresizingMaskIntoConstraints="NO" id="uLb-uN-gNB">
+                                <rect key="frame" x="82.5" y="243.5" width="210" height="180"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="180" id="4hZ-Qo-70T"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="210" id="AYp-lL-VPw"/>
+                                    <constraint firstAttribute="width" constant="210" id="Dnj-OA-JTn"/>
+                                    <constraint firstAttribute="height" constant="180" id="e5c-P9-SqP"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What's on your mind today?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8bG-eb-KdR">
+                                <rect key="frame" x="39" y="420" width="320" height="23"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="23" id="4Iz-qg-Ywe"/>
+                                    <constraint firstAttribute="width" constant="320" id="F2A-jV-a3g"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="20.5"/>
+                                <color key="textColor" red="0.1392349742" green="0.4375895407" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="8bG-eb-KdR" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="4N4-D2-yNv"/>
+                            <constraint firstItem="8bG-eb-KdR" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="10" id="9Lq-ca-ssV"/>
+                            <constraint firstItem="uLb-uN-gNB" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="EL8-wy-KN0"/>
+                            <constraint firstItem="8bG-eb-KdR" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" constant="10" id="IMO-aw-pMy"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="bottom" secondItem="8bG-eb-KdR" secondAttribute="bottom" constant="224" id="Sf7-X7-mmG"/>
+                            <constraint firstItem="8bG-eb-KdR" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" constant="39" id="Xua-gf-wfb"/>
+                            <constraint firstItem="uLb-uN-gNB" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Yf4-Bu-l8s"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="trailing" secondItem="8bG-eb-KdR" secondAttribute="trailing" constant="16" id="hco-YP-Cdg"/>
+                            <constraint firstItem="uLb-uN-gNB" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="mzj-eq-QLD"/>
+                            <constraint firstItem="8bG-eb-KdR" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="nMO-sU-nhO"/>
+                            <constraint firstItem="8bG-eb-KdR" firstAttribute="top" secondItem="Bcu-3y-fUS" secondAttribute="top" constant="400" id="rqp-l3-RKZ"/>
+                            <constraint firstItem="uLb-uN-gNB" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="z8m-9R-k5c"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Bcu-3y-fUS"/>
                     </view>
                 </viewController>
@@ -26,4 +61,8 @@
             <point key="canvasLocation" x="52" y="374.66266866566718"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="TwitterLogo" width="120" height="120"/>
+        <image name="TwitterLogoBlue" width="400" height="400"/>
+    </resources>
 </document>
