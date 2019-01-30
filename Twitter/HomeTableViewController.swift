@@ -15,12 +15,13 @@ class HomeTableViewController: UITableViewController {
     
     let myRefreshControl = UIRefreshControl()
     
-    
+    //tableView.rowHeight = UITableView.automaticDimension
     
     override func viewDidLoad() {
         super.viewDidLoad()
         loadTweets()
     
+        tableView.rowHeight = UITableView.automaticDimension
         
         myRefreshControl.addTarget(self, action: #selector(loadTweets), for: .valueChanged)
         tableView.refreshControl = myRefreshControl

@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ye6-vk-tEn">
-                                <rect key="frame" x="126" y="364" width="163" height="42"/>
+                                <rect key="frame" x="125.66666666666669" y="364" width="163" height="42"/>
                                 <color key="backgroundColor" red="0.0086875598020000003" green="0.20004031250000001" blue="0.29080310879999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="163" id="OAM-Bp-hXr"/>
@@ -88,8 +88,8 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tweet content" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bFY-d7-1Hc">
-                                            <rect key="frame" x="99" y="41" width="295" height="44"/>
-                                            <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="17"/>
+                                            <rect key="frame" x="99" y="41" width="295" height="60"/>
+                                            <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="15"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
@@ -97,7 +97,7 @@
                                     <color key="backgroundColor" red="0.71360050402896835" green="0.86699098052543166" blue="1" alpha="0.55944652288732399" colorSpace="custom" customColorSpace="displayP3"/>
                                     <constraints>
                                         <constraint firstItem="bFY-d7-1Hc" firstAttribute="top" secondItem="DMF-t9-ffg" secondAttribute="bottom" constant="8" id="5zR-Ue-7ML"/>
-                                        <constraint firstItem="bFY-d7-1Hc" firstAttribute="bottom" secondItem="u4A-d7-qez" secondAttribute="bottomMargin" constant="-25" id="734-f7-9Gw"/>
+                                        <constraint firstItem="bFY-d7-1Hc" firstAttribute="bottom" secondItem="u4A-d7-qez" secondAttribute="bottomMargin" constant="-9" id="734-f7-9Gw"/>
                                         <constraint firstItem="DMF-t9-ffg" firstAttribute="leading" secondItem="kat-Fv-UP7" secondAttribute="trailing" constant="14" id="K0d-3r-Ozd"/>
                                         <constraint firstItem="DMF-t9-ffg" firstAttribute="leading" secondItem="kat-Fv-UP7" secondAttribute="trailing" constant="14" id="Mgz-Qg-nY3"/>
                                         <constraint firstItem="DMF-t9-ffg" firstAttribute="leading" secondItem="kat-Fv-UP7" secondAttribute="trailing" constant="14" id="QGT-53-4Ag"/>
