@@ -19,28 +19,35 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ye6-vk-tEn">
-                                <rect key="frame" x="45" y="320.66666666666669" width="324" height="95"/>
-                                <color key="backgroundColor" red="0.0086875598015521069" green="0.20004031246793241" blue="0.29080310880829019" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <rect key="frame" x="126" y="364" width="163" height="42"/>
+                                <color key="backgroundColor" red="0.0086875598020000003" green="0.20004031250000001" blue="0.29080310879999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="324" id="OAM-Bp-hXr"/>
-                                    <constraint firstAttribute="height" constant="95" id="s2g-1o-ZKQ"/>
+                                    <constraint firstAttribute="width" constant="163" id="OAM-Bp-hXr"/>
+                                    <constraint firstAttribute="height" constant="42" id="s2g-1o-ZKQ"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="25"/>
                                 <color key="tintColor" red="0.1392349742" green="0.4375895407" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="Ready to Tweet?  Login!">
-                                    <color key="titleColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Login!">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <action selector="onLoginButton:" destination="cNN-7p-hXt" eventType="touchUpInside" id="7Ni-5U-ngH"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ready to Tweet?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nhZ-90-XQe">
+                                <rect key="frame" x="98" y="304" width="218" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="26"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.02987437045" green="0.68788918139999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.0086875598020000003" green="0.20004031250000001" blue="0.29080310879999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="ye6-vk-tEn" firstAttribute="centerX" secondItem="vW0-2J-StW" secondAttribute="centerX" id="Dog-it-pGL"/>
-                            <constraint firstItem="ye6-vk-tEn" firstAttribute="centerY" secondItem="vW0-2J-StW" secondAttribute="centerY" id="cnl-ee-TOr"/>
+                            <constraint firstItem="ye6-vk-tEn" firstAttribute="centerY" secondItem="vW0-2J-StW" secondAttribute="centerY" constant="17" id="cnl-ee-TOr"/>
                             <constraint firstItem="ye6-vk-tEn" firstAttribute="centerX" secondItem="vW0-2J-StW" secondAttribute="centerX" id="qoK-3o-lYU"/>
-                            <constraint firstItem="ye6-vk-tEn" firstAttribute="centerY" secondItem="vW0-2J-StW" secondAttribute="centerY" id="yB3-GK-t06"/>
+                            <constraint firstItem="ye6-vk-tEn" firstAttribute="centerY" secondItem="vW0-2J-StW" secondAttribute="centerY" constant="17" id="yB3-GK-t06"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="hZM-Rn-edE"/>
                     </view>
@@ -77,16 +84,17 @@
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="John Doe" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DMF-t9-ffg">
                                             <rect key="frame" x="99" y="11" width="295" height="22"/>
-                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                            <fontDescription key="fontDescription" name="HoeflerText-Black" family="Hoefler Text" pointSize="20"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tweet content" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bFY-d7-1Hc">
                                             <rect key="frame" x="99" y="41" width="295" height="44"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                            <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
+                                    <color key="backgroundColor" red="0.71360050402896835" green="0.86699098052543166" blue="1" alpha="0.55944652288732399" colorSpace="custom" customColorSpace="displayP3"/>
                                     <constraints>
                                         <constraint firstItem="bFY-d7-1Hc" firstAttribute="top" secondItem="DMF-t9-ffg" secondAttribute="bottom" constant="8" id="5zR-Ue-7ML"/>
                                         <constraint firstItem="bFY-d7-1Hc" firstAttribute="bottom" secondItem="u4A-d7-qez" secondAttribute="bottomMargin" constant="-25" id="734-f7-9Gw"/>
