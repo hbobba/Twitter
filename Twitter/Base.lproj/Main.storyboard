@@ -83,12 +83,12 @@
                                             </constraints>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="John Doe" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DMF-t9-ffg">
-                                            <rect key="frame" x="99" y="11" width="295" height="43"/>
+                                            <rect key="frame" x="99" y="11" width="295" height="20"/>
                                             <fontDescription key="fontDescription" name="HoeflerText-Black" family="Hoefler Text" pointSize="20"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tweet content" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bFY-d7-1Hc">
-                                            <rect key="frame" x="99" y="79" width="295" height="20"/>
+                                            <rect key="frame" x="99" y="56" width="295" height="43"/>
                                             <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="15"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
@@ -136,7 +136,6 @@
                                         <constraint firstItem="kat-Fv-UP7" firstAttribute="top" secondItem="DMF-t9-ffg" secondAttribute="top" id="mkH-id-oPg"/>
                                         <constraint firstItem="QY3-MT-0zy" firstAttribute="top" secondItem="bFY-d7-1Hc" secondAttribute="bottom" constant="8" id="ox1-ob-BVy"/>
                                         <constraint firstAttribute="bottomMargin" secondItem="kat-Fv-UP7" secondAttribute="bottom" constant="34" id="uZq-VP-I5K"/>
-                                        <constraint firstAttribute="bottomMargin" secondItem="DMF-t9-ffg" secondAttribute="bottom" constant="85" id="ub8-KQ-wRB"/>
                                         <constraint firstItem="2y2-iV-vQ8" firstAttribute="leading" secondItem="QY3-MT-0zy" secondAttribute="trailing" constant="41" id="umL-An-T4Y"/>
                                         <constraint firstItem="2y2-iV-vQ8" firstAttribute="leading" secondItem="QY3-MT-0zy" secondAttribute="trailing" constant="41" id="zEr-0l-4lg"/>
                                     </constraints>
